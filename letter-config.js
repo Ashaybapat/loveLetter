@@ -74,7 +74,7 @@ const letterConfig = {
         envelopeOpenDuration: 2000,   // How long envelope opening takes (ms)
         letterUnfoldDuration: 1500,   // How long letter unfolds (ms)
         heartFloatDuration: 15,       // Seconds for hearts to float (10-20)
-    }
+    },
 
     photo: {
         enabled: true,
