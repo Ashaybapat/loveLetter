@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Letter For You 💌</title>
+    <link rel="stylesheet" href="letter-styles.css">
+</head>
+<body>
+    <!-- Envelope Animation -->
+    <div class="envelope-wrapper" id="envelopeWrapper">
+        <div class="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-body"></div>
+            <div class="heart-seal">💌</div>
+        </div>
+        <button class="open-button" id="openButton">Open Letter</button>
+    </div>
+
+    <!-- Floating Hearts Background -->
+    <div class="hearts-background" id="heartsBackground"></div>
+
+    <!-- Letter Content -->
+    <div class="letter-container" id="letterContainer">
+        <div class="letter-paper">
+            <!-- Close Button -->
+            <button class="close-button" id="closeButton">✕</button>
+            
+            <!-- Letter Header -->
+            <div class="letter-header">
+                <div class="date" id="letterDate">February 14, 2026</div>
+                <div class="to-from">
+                    <div class="to">To: <span id="recipientName">My Love</span></div>
+                    <div class="from">From: <span id="senderName">Your Valentine</span></div>
+                </div>
+            </div>
+
+            <!-- Letter Body (Typewriter Effect) -->
+            <div class="letter-body">
+                <div class="greeting" id="greeting">My Dearest,</div>
+                <div class="letter-text" id="letterText"></div>
+                <div class="signature" id="signature" style="display: none;">
+                    <div class="signature-text">With all my love,</div>
+                    <div class="signature-name" id="signatureName">Your Valentine</div>
+                    <div class="signature-hearts">💕 💖 💕</div>
+                </div>
+            </div>
+
+            <!-- Photo Section (appears after signature) -->
+            <div class="photo-section" id="photoSection" style="display: none;">
+                <div class="photo-frame">
+                    <img id="couplePhoto" src="" alt="Us" />
+                    <div class="photo-caption" id="photoCaption">Us 💕</div>
+                </div>
+            </div>
+
+            <!-- PS Section (appears after photo) -->
+            <div class="ps-section" id="psSection" style="display: none;">
+                <div class="ps-text">P.S. <span id="psContent">You make every day feel like Valentine's Day.</span></div>
+            </div>
+        </div>
+
+        <!-- Music Player -->
+        <div class="music-player" id="musicPlayer" style="display: none;">
+            <button id="musicToggle" class="music-button">🎵 Play Music</button>
+            <audio id="audioPlayer" loop>
+                <source id="audioSource" src="" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+
+    <!-- Configuration -->
+    <script src="letter-config.js"></script>
+    <!-- Main Script -->
+    <script src="letter-script.js"></script>
+</body>
+</html>
