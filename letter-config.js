@@ -63,9 +63,9 @@ const letterConfig = {
 
     // Music Settings (Optional)
     music: {
-        enabled: false,               // Set to true when you add music
+        enabled: true,               // Set to true when you add music
         autoplay: true,               // Try to autoplay
-        musicUrl: "",                 // Cloudinary URL for romantic song
+        musicUrl: "https://github.com/Ashaybapat/loveLetter/raw/main/music.mp3",                 // Cloudinary URL for romantic song
         volume: 0.4,                  // 0.0 to 1.0
     },
 
