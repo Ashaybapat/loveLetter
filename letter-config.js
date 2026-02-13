@@ -33,7 +33,7 @@ const letterConfig = {
         },
         
         // P.S. Message (appears after main letter)
-        ps: "You make every day feel like Valentine's Day. But today, I wanted to make it extra special for you. 💕"
+        ps: "You're not just my Valentine today – you're my Valentine every day, for all my days. 💕"
     },
 
     // Typewriter Effect Settings
