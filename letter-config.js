@@ -75,4 +75,11 @@ const letterConfig = {
         letterUnfoldDuration: 1500,   // How long letter unfolds (ms)
         heartFloatDuration: 15,       // Seconds for hearts to float (10-20)
     }
+
+    photo: {
+        enabled: true,
+        imageUrl: "https://github.com/Ashaybapat/loveLetter/raw/main/us.jpeg",
+        caption: "Us 💕",  // Change to whatever you like
+        showAfterSignature: true,
+    }
 };
